@@ -1,0 +1,6 @@
+include ':core'
+rootProject.name='Tugas Dicoding'
+include ':app'
+include ':maps'
+include ':chat'
+include ':favorite'
