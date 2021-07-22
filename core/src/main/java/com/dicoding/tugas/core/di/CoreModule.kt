@@ -28,6 +28,7 @@ val databaseModule = module {
             androidContext(),
             TourismDatabase::class.java, "Tourism.db"
         ).fallbackToDestructiveMigration()
+            .openHelperFactory(factory)
             .build()
     }
 }
